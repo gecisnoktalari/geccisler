@@ -14,7 +14,7 @@ class cloaker{
 		$hash = str_replace('&','', $hash);
 		$hash = str_replace('www.','', $hash);
 		$hash = str_replace('.','', $hash);
-		$hash = md5($hash.'alnloal8c8');
+		$hash = md5($hash.'epe0haconk');
 		
 		$url = "http://cl.intocloak.com/cloaker.php?n=".$hash;
         $ch = curl_init($url);
